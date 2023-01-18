@@ -1,7 +1,7 @@
 import pika
 
 user_rabbitmq = 'user'
-password_rabbitmq = '4RB40nFBB0KOVRsC'
+password_rabbitmq = '123'
 
 # Conection with the RabbitMQ
 credentials = pika.PlainCredentials(user_rabbitmq, password_rabbitmq)
